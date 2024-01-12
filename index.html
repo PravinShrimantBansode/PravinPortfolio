@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pravin Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul>
+                    <li><i class="fa fa-fw fa-home"></i><a href="#header">Home</a></li>
+                    <li><i style="font-size:14px" class="fa">&#xf0c0;</i><a href="#about">About</a></li>
+                    <li><i style="font-size:14px" class="fa">&#xf085;</i><a href="#portfolio">My Work</a></li>
+                    <li><i class="fa fa-fw fa-envelope"></i><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Software Developer</p>
+                <h1>Hi,I'am <span>Pravin</span> Bansode <br>from Pune(Maharashtra)</h1>
+            </div>
+        </div>
+    </div>
+<!----------------------about---------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.jpg" width="500" height="600">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Seeking a challenging and rewarding opportunity with an organization of repute which recognizes my true-potential and effectively utilizes/nurtures my excellent analytical and technical skills in IT industry Software.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills"> <!--all content shown in skills tab cames here-->
+                        <ul>
+                        <li><span>Web Development :- </span><br><br>Proficient in writing well-structured and semantic HTML code.<br>  proficiency in CSS for styling and layout purposes.</li><br>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience"> <!--all content shown in skills tab cames here-->
+                        <ul>
+                            <li><span>Company name :- Computer Home Private Ltd(CHPL)</span><br>
+                            <br>Address:-  Karvenager Pune - 411052
+                            <br>Position | Duration :- Trainee (Intern) / 04/2022 - 07/2022
+                            <br>Completed 3 months internship on Oracle Database
+                            I Joined in company (CHPL) as a Trainee (Intern) • The CHPL is a core developer of the above Catalyst HRMS System and is also responsible for Upgrading and Maintenance of the same system for last 16 years. • the bank has introduced Two new earning heads & Two new deduction heads, so I have studied the impact the Said changes in the HRMS System & done the impact analysis, • after doing The Impact Analysis 
+                            I have done the system design & its implementation. • Unit testing of the said changes, installing the unit tested changes on test server of the bank. • On approval of the Customer/Bank, deploying the approved changes on the production server of the bank.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active tab"id="education"> <!--all content shown in skills tab cames here-->
+                        <ul>
+                            <li><span>Master of Computer Application (MCA):- </span><br>
+                            <br>Insititute Name :- Sinhgad Institute of Business Administration and Research (SIBAR) - MCA from Savitribai Phule Pune University
+                            <br>Year/Percentage :- 2020 - 2022    /    79% </li><br>
+
+                            <li><span>Bachelor of Business Administration in Computer Application B.B.A (C. A) :- </span><br>
+                                <br>College  Name :- Shri Shahu Mandir Mahavidyalaya Pune from Savitribai Phule Pune University
+                                <br>Year/Percentage :- 2017 - 2019    /    59%</li><br>
+
+                            <li><span>12th (HSC) :- </span><br>
+                                    <br>College  Name :- Shri Shahu Mandir Mahavidyalaya Pune
+                                    <br>Year/Percentage :- 2016 - 2017    /    64%</li><br>
+
+                            <li><span>10th (SSC) :- </span><br>
+                                        <br>School Name :- Shri Sant Namdev Madhyamik Vidyalaya maharshinagar Pune
+                                        <br>Year/Percentage :- 2014 - 2015    /    57%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!----------------------portfolio---------------------->
+<div id ="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3> Online Plant Store</h3>
+                    <p>The 'Online Plant Store' website is specifically designed for online purchasing of various types of plants.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------------------contact---------------------------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="material-icons">&#xe0be;</i>pravinbansode027@gmail.com</p>
+                <p><i style="font-size:24px" class="fa">&#xf095;</i>9112974834</p>
+                <br><a href="C:\PravinPortfolio\images\my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <br><input type="email" name="Email" placeholder="Your Email" required>
+                    <br></b><textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <br><button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+             
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright &copy; Pravin Bansode made with <i style="font-size:24px" class="fa">&#xf004 </i></p>
+    </div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx78-sQmNqQFz_BsyYNUKXO29Nx3e-GQzJuLwdA_iAQX87fsU-y_nW_P4P-WcJWtjQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
